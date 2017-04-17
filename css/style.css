@@ -1,0 +1,154 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Cookie);
+@import url('https://fonts.googleapis.com/css?family=Pompiere');
+
+/* Base
+------------------------------------------------------------*/
+  html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #ffdc00;
+  font-size: 4.5rem;
+  font-family: 'Cookie', cursive;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #00a3a7;
+}
+
+  .text-center
+{
+  text-align: center;
+}
+/* Header
+------------------------------------------------------------*/
+
+  .box1 
+{
+  background-image: url("../images/coffeeshop2_img.jpg");
+  height: 250px;
+  width: 100%;
+  margin:0 auto;
+  clear:both;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Contents
+------------------------------------------------------------*/
+
+section
+{
+  padding: 10px 0;
+}
+
+  section .container
+{
+  width: 90%
+}
+section .container
+{
+    display: block;
+    flex-direction:colum;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.great+Vibes,
+section h3
+{
+  font-family: 'Pompiere', cursive;
+}
+section h3
+{
+  font-size: 2.5rem;
+}
+
+  #shops .container
+{
+    display: -webkit-flex;
+    display:         flex;
+    justify-content: space-between;
+    -webkit-flex-direction: column;
+}
+#shops h3
+{
+    margin-bottom: 20px;
+    color: #00a3a7;
+    
+}
+  #shops .shop-box
+{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-flex: 1;
+            flex: 1;
+    padding: 20px;
+    margin: 10px 20px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+    background-color: #ffffff;
+}
+#shops p
+{
+    font-size:2.5rem; 
+    margin-bottom: 10px;
+    color: #4c4c4c;
+}
+.great+Vibes,
+p
+{
+  font-family: 'Pompiere', cursive;
+}
+
+/* Contents
+------------------------------------------------------------*/
+#footer
+{
+    padding: 40px 0;
+    text-align: center;
+    color: ##ffdc00;
+    background-color: #ffffff;
+}
+
+.inner-button
+{
+  text-align: center;
+  font-size: 2rem;
+  color: #4c4c4c;
+  display: block;
+    width: 150px;
+    margin: auto;
+    padding: 3px 0;
+    text-align: center;
+    color: #fff;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    background-color: #00a3a7;
+}
+
+@media (min-width: 769px) {
+
+.box1 
+{
+  background-image: url("../images/coffeeshop2_img.jpg");
+  height: 500px;
+}
+
+
+  #shops .container {
+
+     -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between; 
+  }
+
+.inner-button:hover
+{
+  background-color: #4169e1;
+}
+}

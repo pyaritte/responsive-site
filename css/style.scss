@@ -1,0 +1,36 @@
+@import "compass";
+@import url(https://fonts.googleapis.com/css?family=Cookie);
+// font-family
+$baseFontFamily :"游ゴシック", YuGothic, "メイリオ",Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+
+// colors
+$baseColor: #ffffff;
+$subColor: #d9d9d9;
+$keyColor: #00a3a7;
+$fontColor: #4c4c4c;
+
+/* Base
+------------------------------------------------------------*/
+html{ font-size: 62.5%; }
+
+body{
+  color: $fontColor;
+  font-size: 1.4rem;
+  font-family:$baseFontFamily;
+  line-height:1.6;
+  letter-spacing: 0.1em; 
+  background-color: $baseColor;
+}
+
+/* Layout
+------------------------------------------------------------*/
+.box1 {
+  background-image: url("../images/coffeeshop2_img.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Contents
+------------------------------------------------------------*/
